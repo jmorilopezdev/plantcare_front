@@ -9,8 +9,8 @@ To start the application, the following steps must be taken:
 1. Download the content of this repository.
 2. Check the nodejs and npm version on your local computer, the following version was used: v20.17.0 (node ​​js) and 10.9.2 (npm).
 3. Open with the editor of your choice, (VSCode is recommended).
-4. Install the packages and dependencies of the project with the command from your terminal, ### `npm install`, wait for the installation to finish.
-5. Start the application with the command from your terminal, ### `npm start`.
+4. Install the packages and dependencies of the project with the command from your terminal, `npm install`, wait for the installation to finish.
+5. Start the application with the command from your terminal, `npm start`.
 6. Make sure that the Backend project is running.
 7. The application will be displayed in your browser at the following address: "http://localhost:3000", showing the page with the dashboard and the options present in the application.
 
