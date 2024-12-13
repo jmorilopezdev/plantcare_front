@@ -1,70 +1,17 @@
-# Getting Started with Create React App
+# PlantCare React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This Backend was implemented under the latest version of ReactJs technology.
 
-## Available Scripts
+This application has a dashboard in which the information of the plants is displayed grouped by their type and in which they can be sorted by the state of need for watering and in addition, the information on the dashboard can be filtered for a more precise search. The information of this application is managed by the PlantCare Api NetCore backend application, review the documentation of that application at the following link: https://github.com/jmorilopezdev/plantcare_back.
 
-In the project directory, you can run:
+To start the application, the following steps must be taken:
 
-### `npm start`
+1. Download the content of this repository.
+2. Check the nodejs and npm version on your local computer, the following version was used: v20.17.0 (node ​​js) and 10.9.2 (npm).
+3. Open with the editor of your choice, (VSCode is recommended).
+4. Install the packages and dependencies of the project with the command from your terminal, ### `npm install`, wait for the installation to finish.
+5. Start the application with the command from your terminal, ### `npm start`.
+6. Make sure that the Backend project is running.
+7. The application will be displayed in your browser at the following address: "http://localhost:3000", showing the page with the dashboard and the options present in the application.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+According to what is detailed in the backend documentation, the application uses a temporary database, so on the first load of the frontend application no data will be displayed, complete the information at your discretion for your tests.
