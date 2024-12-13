@@ -1,6 +1,6 @@
 # PlantCare React App
 
-This Backend was implemented under the latest version of ReactJs technology.
+This FrontEnd was implemented under the latest version of ReactJs technology.
 
 This application has a dashboard in which the information of the plants is displayed grouped by their type and in which they can be sorted by the state of need for watering and in addition, the information on the dashboard can be filtered for a more precise search. The information of this application is managed by the PlantCare Api NetCore backend application, review the documentation of that application at the following link: https://github.com/jmorilopezdev/plantcare_back.
 
